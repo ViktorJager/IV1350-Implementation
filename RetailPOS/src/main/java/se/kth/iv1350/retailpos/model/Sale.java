@@ -166,7 +166,7 @@ public class Sale {
     }
     
     /**
-     * Get the value of saleTime
+     * Get the value of totalPriceTaxExcluded
      *
      * @return the <code>Amount</code> of totalPriceTaxExcluded
      */

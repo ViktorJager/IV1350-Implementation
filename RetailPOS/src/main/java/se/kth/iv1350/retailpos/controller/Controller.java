@@ -20,7 +20,7 @@ public class Controller {
     private InventoryRegistry inventoryRegistry;
     private AccountingSystem accountingSystem;
     private CashRegister cashReg;
-    private Printer printer;
+    private Printer printer; 
     
     public Controller(ExternalSystemsCreator creator, Printer printer) {
         this.inventoryRegistry = creator.getInventoryRegistry();

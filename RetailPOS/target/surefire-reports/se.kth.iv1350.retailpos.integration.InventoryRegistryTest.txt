@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: se.kth.iv1350.retailpos.integration.InventoryRegistryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in se.kth.iv1350.retailpos.integration.InventoryRegistryTest
-testGetItemFromRegistryExisting  Time elapsed: 0.013 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Existing item was not found ==> expected: <itemIdentifier: 555555, price: 315.0, taxRate: 1.12, itemName: Champion Firebird, itemDescription: Discgolf disc by Innova in Champion plastic.> but was: <itemIdentifier: 555555, price: 200.0, taxRate: 1.25, itemName: Firebird, itemDescription: Discgolf disc by Innova in Champion plastic.>
-	at se.kth.iv1350.retailpos.integration.InventoryRegistryTest.testGetItemFromRegistryExisting(InventoryRegistryTest.java:18)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in se.kth.iv1350.retailpos.integration.InventoryRegistryTest

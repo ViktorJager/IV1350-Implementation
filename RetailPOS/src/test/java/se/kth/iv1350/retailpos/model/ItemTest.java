@@ -46,4 +46,20 @@ public class ItemTest {
         String result = instance.getItemIdentifier();
         assertEquals(expResult, result, "Incorrect item identifier");
     }
+    
+    @Test
+    public void testEquals() {
+        String itemIdentifier = "123456";
+        Amount price = new Amount(100);
+        double taxRate = 1.25;
+        String itemName = "IKEA Pants";
+        String itemDescription = "100% Polyester, yellow and blue patented square-pattern.";
+        ItemDTO itemDTO = new ItemDTO(itemIdentifier, price, taxRate, itemName, itemDescription);
+        Item instance = new Item(itemDTO);
+        Item equalInstance = new Item(itemDTO);
+        
+        boolean expResult = true;
+        boolean result = instance.equals(equalInstance);
+        assertEquals(expResult, result, "Items with same states are not equal");
+    }
 }

@@ -11,7 +11,7 @@ public class InventoryRegistryTest {
 
     @Test
     public void testGetItemFromRegistryExisting() {
-        ItemDTO existingItem = new ItemDTO("555555", new Amount(200), 1.25, "Champion Firebird", "Discgolf disc by Innova in Champion plastic.");
+        ItemDTO existingItem = new ItemDTO("555555", new Amount(200), 1.25, "Firebird", "Discgolf disc by Innova in Champion plastic.");
         InventoryRegistry instance = new InventoryRegistry();
         ItemDTO expResult = existingItem;
         ItemDTO result = instance.getItemFromInventoryRegistry("555555");
